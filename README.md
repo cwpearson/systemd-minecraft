@@ -1,7 +1,7 @@
 # minecraft-systemd
 
 ### Start a server in the cloud
-* Google Compute: cheapest 2-CPU, few 100s MB free disk
+* Google Compute: cheapest 1-CPU, few GB RAM, few 100s MB free disk
   * add firewall rule to all inbound tcp 25565
   * set static IP address
 
