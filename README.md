@@ -1,7 +1,13 @@
 # minecraft-systemd
 
 ### Start a server in the cloud
-* Google Compute: cheapest 1-CPU, few GB RAM, few 100s MB free disk
+
+* Java Edition 1.15.2
+  * First user is about 50% CPU, each additional is about 20% more?
+  * Memory usage seems to hover around 1.2 GB
+  * After playing for a white, disk usage is 150 MB.
+
+* Google Compute: cheapest 1-CPU, few GB RAM, few GBs extra disk.
   * add firewall rule to all inbound tcp 25565
   * set static IP address
 
